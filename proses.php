@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $dropdown = $_POST['operator'];
 
   // proses operasi aritmatika
-  if ($operator == '+') {
+  if ($dropdown == '+') {
     $hasil = $angka01 + $angka02;
   } else if ($dropdown == '-') {
     $hasil = $angka01 - $angka02;
